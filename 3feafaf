@@ -1,1 +1,49 @@
-local a=loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()local b=a.CreateLib("Veteran Loader","DarkTheme")local c=b:NewTab("Main")local d=c:NewSection("The Sauce")d:NewDropdown("Veterans Private GUI","TO OP LOL",{"Veterans Private GUI"},function(e)loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/steal-gay/main/03FHAWFUANJFSFWAHV"))()end)d:NewDropdown("Infinite Yield","Executes Infinite Yield",{"Infinite Yield"},function(e)loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()end)d:NewDropdown("UNANCHORED TO PLAYER TROLL GUI TROLOLOLOL (BROKEN)","Executes UNANCHORED TO PLAYER GUI (BROKEN)",{"UNANCHORED TO PLAYER GUI (BROKEN)"},function(e)loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/FU3ACKCC/main/GAYSTUPIF"))()end)d:NewDropdown("SSB WRLD : NEXT GEN GUI MADE BY VETERAN","Executes SSB WRLD : NEXT GEN GUI MADE BY VETERAN",{"SSB WRLD : NEXT GEN GUI MADE BY VETERAN"},function(e)loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/SOBBB/main/sosbb"))()end)d:NewDropdown("[SCP] TASK FORCE","Very good gui",{"[SCP] TASK FORCE"},function(e)loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/SCPPP/main/SAVAWV3"))()end)local f=b:NewTab("Credits")local g=f:NewSection("Made By Veteran#7824 (main) (could change)")local g=f:NewSection("Made By VeteranAlt#1341 (alt)")local g=f:NewSection("Made By VeteranKiller#1644 (alt)")local g=f:NewSection("Made By Veteran2#9639 (alt)")local g=f:NewSection("Leak = i shut down the script")d:NewKeybind("Toggle GUI","Toggles GUI",Enum.KeyCode.J,function()a:ToggleUI()end)
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Veteran Loader", "DarkTheme")
+
+--MAIN SHIT
+
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("The Sauce")
+MainSection:NewDropdown("Veterans Private GUI", "TO OP LOL", {"Veterans Private GUI"}, function(v)
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/steal-gay/main/03FHAWFUANJFSFWAHV"))();
+end)
+    
+    
+    
+       MainSection:NewDropdown("Infinite Yield", "Executes Infinite Yield", {"Infinite Yield"}, function(v)
+           
+           
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+ MainSection:NewDropdown("UNANCHORED TO PLAYER TROLL GUI TROLOLOLOL (BROKEN)", "Executes UNANCHORED TO PLAYER GUI (BROKEN)", {"UNANCHORED TO PLAYER GUI (BROKEN)"}, function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/FU3ACKCC/main/GAYSTUPIF"))();
+end)
+    
+
+
+MainSection:NewDropdown("SSB WRLD : NEXT GEN GUI MADE BY VETERAN", "Executes SSB WRLD : NEXT GEN GUI MADE BY VETERAN", {"SSB WRLD : NEXT GEN GUI MADE BY VETERAN"}, function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/SOBBB/main/sosbb"))();
+end)
+
+MainSection:NewDropdown("[SCP] TASK FORCE", "Very good gui", {"[SCP] TASK FORCE"}, function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/SCPPP/main/SAVAWV3"))();
+end)
+
+local Player = Window:NewTab("Credits")
+local PlayerSection = Player:NewSection("Made By Veteran#7824 (main) (could change)")
+local PlayerSection = Player:NewSection("Made By VeteranAlt#1341 (alt)")
+local PlayerSection = Player:NewSection("Made By VeteranKiller#1644 (alt)")
+local PlayerSection = Player:NewSection("Made By Veteran2#9639 (alt)")
+ local PlayerSection = Player:NewSection("Leak = i shut down the script")
+
+    MainSection:NewKeybind("Toggle GUI", "Toggles GUI", Enum.KeyCode.J, function()
+Library:ToggleUI()
+    end)
+
