@@ -36,6 +36,12 @@ MainSection:NewDropdown("[SCP] TASK FORCE", "Very good gui", {"[SCP] TASK FORCE"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/SCPPP/main/SAVAWV3"))();
 end)
 
+MainSection:NewDropdown("KILL NOOBS FOR NO FUCKING REASON SIMULATOR", "Executes KILL NOOBS FOR NO FUCKING REASON SIMULATOR", {"KILL NOOBS FOR NO FUCKING REASON SIMULATOR"}, function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/X2141/main/x413"))();
+end)
+
+
+
 local Player = Window:NewTab("Credits")
 local PlayerSection = Player:NewSection("Made By Veteran#7824 (main) (could change)")
 local PlayerSection = Player:NewSection("Made By VeteranAlt#1341 (alt)")
