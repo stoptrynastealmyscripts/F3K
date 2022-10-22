@@ -1,17 +1,4 @@
-local PerformanceStats = game:GetService("CoreGui"):WaitForChild("RobloxGui"):WaitForChild("PerformanceStats");
-local PingLabel;
-for I, Child in next, PerformanceStats:GetChildren() do
-    if Child.StatsMiniTextPanelClass.TitleLabel.Text == "Ping" then
-        PingLabel = Child.StatsMiniTextPanelClass.ValueLabel;
-        break;
-    end;
-end;
 
-local text = "spoof";
-PingLabel:GetPropertyChangedSignal("Text"):Connect(function()
-    PingLabel.Text = "Thanks for using Veterans Script :D";
-end);
-PingLabel.Text = "Thanks for using Veterans Script :)";
 
 
 
@@ -88,3 +75,26 @@ local PlayerSection = Player:NewSection("Made By Veteran2#9639 (alt)")
 Library:ToggleUI()
     end)
 
+
+
+
+
+
+
+
+
+
+local PerformanceStats = game:GetService("CoreGui"):WaitForChild("RobloxGui"):WaitForChild("PerformanceStats");
+local PingLabel;
+for I, Child in next, PerformanceStats:GetChildren() do
+    if Child.StatsMiniTextPanelClass.TitleLabel.Text == "Ping" then
+        PingLabel = Child.StatsMiniTextPanelClass.ValueLabel;
+        break;
+    end;
+end;
+
+local text = "spoof";
+PingLabel:GetPropertyChangedSignal("Text"):Connect(function()
+    PingLabel.Text = "Thanks for using Veterans Script :D";
+end);
+PingLabel.Text = "Thanks for using Veterans Script :)";
