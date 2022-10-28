@@ -66,7 +66,9 @@ MainSection:NewDropdown("KILL NOOBS FOR NO FUCKING REASON SIMULATOR", "Executes 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/X2141/main/x413"))();
 end)
 
-
+MainSection:NewDropdown("Shrek in the Backrooms GUI By Veteran", "Executes Shrek in the Backrooms GUI By Veteran", {"Shrek in the Backrooms GUI By Veteran"}, function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/SHREKKKK/main/SHRRKKK"))();
+end)
 
 local Player = Window:NewTab("Credits")
 local PlayerSection = Player:NewSection("Made By Veteran#7824 (main) (could change)")
