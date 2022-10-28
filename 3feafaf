@@ -21,6 +21,7 @@
 
 
 
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Veteran Loader", "DarkTheme")
 
@@ -49,6 +50,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscrip
 end)
     
 
+ MainSection:NewDropdown("🎶Music ID Map (ORIGINAL)🎶 GUI", "Executes 🎶Music ID Map (ORIGINAL)🎶 GUI", {"🎶Music ID Map (ORIGINAL)🎶 GUI (NEW)"}, function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/MSCA/main/ISCAAA"))();
+end)
 
 MainSection:NewDropdown("SSB WRLD : NEXT GEN GUI MADE BY VETERAN", "Executes SSB WRLD : NEXT GEN GUI MADE BY VETERAN", {"SSB WRLD : NEXT GEN GUI MADE BY VETERAN"}, function(v)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/stoptrynastealmyscripts/SOBBB/main/sosbb"))();
@@ -74,6 +78,8 @@ local PlayerSection = Player:NewSection("Made By Veteran2#9639 (alt)")
     MainSection:NewKeybind("Toggle GUI", "Toggles GUI", Enum.KeyCode.J, function()
 Library:ToggleUI()
     end)
+
+
 
 
 
